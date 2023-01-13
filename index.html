@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekkerste macarons met liefde gemaakt | mamacarons.nl</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="script/main.js"></script>
+</head>
+    <body>
+        <div class="wrapper">
+            <div style="background-image: url(img/4.jpg)"></div>
+            <div style="background-image: url(img/1.jpg)"></div>
+            <div style="background-image: url(img/2.jpg)"></div>
+            <div style="background-image: url(img/3.jpg)"></div>
+            <div style="background-image: url(img/5.jpg)"></div>
+            <section class="overlay">
+                <a href="#">afhalen: 06 518 273</a>
+                <a href="#">Volg ons op: Instagram</a>
+            </section>
+        </div>
+        <div class="nav-bar width-100vw bg-color-main">
+            <img src="img/logo.png" alt="">
+            <div class="button-row">
+                <a href="#">Over ons</a>
+                <a href="#">Gallerij</a>
+                <a href="#">Gebakjes</a>
+                <a href="#">Macarons</a>
+                <div class="dropdown">
+                    <img src="img/menu.png" alt="dropdown button" onclick="toggleDropdown()">
+                    <div class="dropdown-content" id="dropdown-content" onclick="toggleDropdown()" onload="home()">
+                        <a href="">Over ons</a>
+                        <a href="">Gallerij</a>
+                        <a href="">Gebakjes</a>
+                        <a href="">Macarons</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
